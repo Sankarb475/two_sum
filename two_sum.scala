@@ -1,10 +1,4 @@
 
-'''
-Created on 12-Dec-2018
-
-@author: sankar.biswas
-'''
-
 object Solution {
     def twoSum(nums: Array[Int], target: Int): Array[Int] = {
         for(a <- 0 until nums.length; b<- a+1 until nums.length) {
